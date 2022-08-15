@@ -3,11 +3,11 @@ A small tool I made to dump the export table of PE files. The primary use case w
 
 # Usage
 ```powershell
-.\ExportDumper dllpath
+.\ExportDump dllpath
 ```
 e.g. 
 ```powershell
-.\ExportDumper C:\Windows\System32\version.dll
+.\ExportDump C:\Windows\System32\version.dll
 [*] Dumping all 17 exported functions from C:\windows\system32\version.dll.
 [+] Dumping done. Check pragma.h
 ```
